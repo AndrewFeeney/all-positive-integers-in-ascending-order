@@ -20,4 +20,4 @@ Positive integers only thanks.
 
 ### What order should they be in?
 
-They should be in consecituve ascending order.
+They should be in consecutive ascending order.
