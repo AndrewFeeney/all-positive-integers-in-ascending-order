@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run the shell test
+        run: |
+          filename='numbers.txt'
+          n=1
+          while read line; do
+          [ $n != $line ] && echo "Error: The number: $line does not comply with the expected result: $n" && exit 1
+          n=$((n+1))
+          done < $filename
+          exit 0
