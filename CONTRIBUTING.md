@@ -12,7 +12,7 @@ We like to keep our code reviews manageable, so please only submit one number pe
 
 ## What kind of numbers are allowed?
 
-Positive integers only thanks.
+Positive integers in base ten.
 
 ## What order should they be in?
 
