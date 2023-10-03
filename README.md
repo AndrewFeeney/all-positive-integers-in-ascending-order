@@ -4,13 +4,13 @@
 
 A list of all positive integers in ascending order.
 
-## But Why Though?
+## Why?
 
 Computation is expensive. Listing integers in ascending order is a solved problem. Why should we waste all those compute cycles re-generating lists over and over for iterators when we could just fetch this list with an HTTP request and be done!
 
-## Are You For Real?
+## Is This A Serious Project?
 
-I don't know are *you* for real? Are any of us for real? Does anything really exist or is this all some kind of simulation. I mean, we probably do and it's probably not, but we don't know for sure.
+This is a very serious project for very serious people. We take this very, seriously. Very seriously indeed.
 
 ## Progress
 
